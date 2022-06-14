@@ -8,6 +8,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.h2.jdbc.JdbcSQLException;
+
 import kohgylw.kiftd.printer.Printer;
 import kohgylw.kiftd.server.util.KiftdProperties;
 
@@ -22,11 +24,14 @@ public class H2DBUpgradeTool {
 	private String DEFAULT_FILE_SYSTEM_PATH;
 	private String confdir;
 	private KiftdProperties serverp;
-	
+
 	/**
 	 * 
 	 * <h2>执行升级</h2>
-	 * <p>该方法会尝试将旧版H2数据库的内容归档在文件节点文件夹内，并存储为“upgarde.sql”的格式。</p>
+	 * <p>
+	 * 该方法会尝试将旧版H2数据库的内容归档在文件节点文件夹内，并存储为“upgarde.sql”的格式。
+	 * </p>
+	 * 
 	 * @author 青阳龙野(kohgylw)
 	 * @return 升级结果，如成功则返回true，否则返回false
 	 */
@@ -120,6 +125,9 @@ public class H2DBUpgradeTool {
 					return false;
 				}
 				Printer.instance.print("导出成功。");
+			} catch (JdbcSQLException e) {
+				Printer.instance.print("错误：数据库版本格式异常。如果您之前已经进行了升级操作并成功，则无需重复执行本操作。");
+				return false;
 			} catch (InstantiationException | IllegalAccessException | ClassNotFoundException | SQLException e) {
 				Printer.instance.print("错误：" + e.getClass().getName() + ": " + e.getMessage());
 				return false;
