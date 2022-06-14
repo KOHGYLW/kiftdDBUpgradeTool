@@ -14,9 +14,15 @@
 
 ------
 
-### 程序界面
+### 程序界面：
 
 ![主界面展示](https://github.com/KOHGYLW/kiftdDBUpgradeTool/blob/master/show.png?raw=true)
+
+------
+
+### 开源声明
+
+本程序为开源软件，您可以免费下载并使用它或它的源代码，详细内容请参阅程序中附带的《使用许可》。
 
 ------
 
