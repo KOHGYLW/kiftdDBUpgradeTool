@@ -3,7 +3,7 @@
 ### _kiftd官方网站：https://kohgylw.gitee.io/_
 
 ------
-![主界面展示](https://github.com/KOHGYLW/kiftd-showPicture/blob/master/kiftd-mainpage.png?raw=true)
+![主界面展示](https://github.com/KOHGYLW/kiftdDBUpgradeTool/blob/master/show.png?raw=true)
 ------
 
 使用方法：
@@ -12,5 +12,7 @@
 + 将该工具下载并解压，并将其中的“kiftdDBUpgradeTool.jar”程序拷贝至待升级的kiftd程序主目录内。
 + 点击“升级”按钮。
 + 升级成功后，开始体验新版本。
+
+------
 
 青阳龙野@kohgylw by 2022年06月14日
