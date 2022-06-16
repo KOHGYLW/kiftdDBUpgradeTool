@@ -126,9 +126,9 @@ public class ToolUIModule extends KiftdDynamicWindow {
 	public void show() {
 		ToolUIModule.window.setVisible(true);
 		printMessage("欢迎使用！");
-		printMessage("升级方法：1，请将该工具的jar程序拷贝至kiftd 1.0.35或更早版本的主目录中；"
-				+ "2，启动该程序并点击“升级”按钮；3，退出该工具，并将kiftd 1.1.0或更新版本的jar主程序、libs文件夹、"
-				+ "mybatisResource文件夹、fonts文件夹和webContext文件夹共5项计拷贝至旧版本内并" + "替换对应的内容；4，开始体验新版本。");
+		printMessage("升级方法：1，退出旧版本的kiftd，并将新版本的jar主程序、libs文件夹、"
+				+ "mybatisResource文件夹、fonts文件夹和webContext文件夹共5项计拷贝至旧版本内替换对应的内容；2，将该工具的jar程序也拷贝至旧版本的主目录内；"
+				+ "3，启动该工具并点击“升级”按钮；4，升级完成后退出该工具（之后您可以选择删除该工具）；5，开始体验新版本。");
 		printMessage("准备就绪。");
 	}
 
