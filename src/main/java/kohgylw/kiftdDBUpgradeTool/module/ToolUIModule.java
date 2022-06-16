@@ -53,7 +53,7 @@ public class ToolUIModule extends KiftdDynamicWindow {
 		buttonBox.add(ToolUIModule.exit = new JButton("退出(Exit)[X]"));
 		ToolUIModule.window.add(buttonBox);
 		final JPanel outputBox = new JPanel(new FlowLayout(1));
-		outputBox.add(new JLabel("[输出信息(Server Message)]："));
+		outputBox.add(new JLabel("[输出信息(Upgrade Message)]："));
 		(ToolUIModule.output = new JTextArea()).setLineWrap(true);
 		output.setRows(9 + (int) (proportion));
 		output.setSize((int) (292 * proportion), 100);
