@@ -18,7 +18,7 @@ _提示：如果您希望通过命令的方式使用“kiftd数据库升级工�
 
 ### 程序界面：
 
-![主界面展示](https://github.com/KOHGYLW/kiftdDBUpgradeTool/blob/master/show.png?raw=true)
+[![kiftd-DBUpgrade-Tool-ui.png](https://i.postimg.cc/htcjqB4Q/kiftd-DBUpgrade-Tool-ui.png)](https://postimg.cc/QHYspvTj)
 
 ------
 
@@ -28,4 +28,4 @@ _提示：如果您希望通过命令的方式使用“kiftd数据库升级工�
 
 ------
 
-青阳龙野@kohgylw by 2022年06月16日
+青阳龙野@kohgylw by 2022年08月22日
