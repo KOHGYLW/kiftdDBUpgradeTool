@@ -42,6 +42,7 @@ public class MC {
 			}
 		} else if (args.length == 1 && COMMAND_UPGARDE.equals(args[0])) {
 			// 当输入“-upgrade”参数时，以命令模式启动
+			Printer.init(false);
 			H2DBUpgradeTool tool =new H2DBUpgradeTool();
 			tool.upgrade();
 		} else {
