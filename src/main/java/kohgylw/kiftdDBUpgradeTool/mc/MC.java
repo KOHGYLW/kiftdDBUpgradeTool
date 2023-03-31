@@ -26,7 +26,7 @@ import kohgylw.kiftdDBUpgradeTool.tool.H2DBUpgradeTool;
  */
 public class MC {
 
-	private static final String COMMAND_UPGARDE = "-upgarde";// 以命令模式启动的参数
+	private static final String COMMAND_UPGARDE = "-upgrade";// 以命令模式启动的参数
 
 	public static void main(String[] args) {
 		if (args == null || args.length == 0) {
