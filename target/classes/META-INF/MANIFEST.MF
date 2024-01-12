@@ -1,6 +1,5 @@
 Manifest-Version: 1.0
-Built-By: kohgylw
-Build-Jdk: 17.0.3
+Build-Jdk-Spec: 17
 Main-Class: kohgylw.kiftdDBUpgradeTool.mc.MC
 Created-By: Maven Integration for Eclipse
 
