@@ -1,6 +1,6 @@
 # kiftd数据库升级工具
 ## 该工具可用于将v1.0.35或更早版本的kiftd文件系统中的数据升级为1.1.0或更新版本可识别的格式
-### _kiftd官方网站：https://kohgylw.gitee.io/_
+### _kiftd官方网站：https://kohgylw.github.io/_
 
 ------
 
@@ -28,4 +28,4 @@ _提示：如果您希望通过命令的方式使用“kiftd数据库升级工�
 
 ------
 
-青阳龙野@kohgylw by 2024年01月12日
+青阳龙野@kohgylw by 2024年05月11日
